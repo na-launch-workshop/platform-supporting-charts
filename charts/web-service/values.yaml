@@ -1,0 +1,6 @@
+name: fastapi-app
+replicas: 1
+
+image:
+  registry: quay-quay-quay-registry.apps.mt-demo-1.c25t.p1.openshiftapps.com/test_org/hello-world
+  tag: f0a588c
