@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   ansible-runner:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:12.448506479Z"
+    description: A Helm chart for Kubernetes
+    digest: 01f2d46e74ee1b2a764b42f7a3924f8e06454b87e732c004ffa6abf120556055
+    name: ansible-runner
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/ansible-runner-1.0.0/ansible-runner-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:27.844480596Z"
     description: A Helm chart for Kubernetes
@@ -12,6 +22,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/ansible-runner-0.2.7/ansible-runner-0.2.7.tgz
     version: 0.2.7
   argocd-application:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:12.572510702Z"
+    description: A Helm chart for Kubernetes
+    digest: f49c4ba6f58a010c8409619a3dc339acaf5cf0641d3815bcbe9fd463963bf146
+    name: argocd-application
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/argocd-application-1.0.0/argocd-application-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:27.983844724Z"
@@ -24,6 +44,16 @@ entries:
     version: 0.2.0
   argocd-team-control:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:12.691187441Z"
+    description: A Helm chart for Kubernetes
+    digest: b4fbe52031e84aced10ed882e4597893305693ad973ed9074aff967033fbfe3c
+    name: argocd-team-control
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/argocd-team-control-1.0.0/argocd-team-control-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.119928802Z"
     description: A Helm chart for Kubernetes
@@ -34,6 +64,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/argocd-team-control-0.1.0/argocd-team-control-0.1.0.tgz
     version: 0.1.0
   devspace-workspace:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:12.82927943Z"
+    description: A Helm chart that creates a devworkspace
+    digest: 083e19f81937b755d4a138792ec708ffcf6a345088fed30ca5c43f80b5b64bb2
+    name: devspace-workspace
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/devspace-workspace-1.0.0/devspace-workspace-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.270747999Z"
@@ -46,6 +86,16 @@ entries:
     version: 0.1.6
   external-secrets-connectors:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:12.953093341Z"
+    description: A Helm chart for Kubernetes
+    digest: 10e3de45aae1aa1155c65e8977710f2b62bfe4e78c7bf90b5a29d0415ab6c40f
+    name: external-secrets-connectors
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/external-secrets-connectors-1.0.0/external-secrets-connectors-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.403939101Z"
     description: A Helm chart for Kubernetes
@@ -56,6 +106,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/external-secrets-connectors-0.1.7/external-secrets-connectors-0.1.7.tgz
     version: 0.1.7
   gitlab-repo-credentials:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.064855124Z"
+    description: A Helm chart for Kubernetes
+    digest: b226499c60748fc906368ff319d40efd2dff11de53df6293a5425285074b2ba9
+    name: gitlab-repo-credentials
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/gitlab-repo-credentials-1.0.0/gitlab-repo-credentials-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.526159727Z"
@@ -68,6 +128,16 @@ entries:
     version: 0.0.1
   kafka-instance:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.189151447Z"
+    description: A Helm chart for Kubernetes
+    digest: e086a36ffb405388052a140b0fcc52cd77677cdc1ddb7c84162e62d60fcda61e
+    name: kafka-instance
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/kafka-instance-1.0.0/kafka-instance-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.661623606Z"
     description: A Helm chart for Kubernetes
@@ -78,6 +148,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/kafka-instance-0.0.5/kafka-instance-0.0.5.tgz
     version: 0.0.5
   langflow-ide:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.326370812Z"
+    description: A Helm chart that installs Node Feature Discovery in OpenShift
+    digest: ccc2622c58aea6de7f90f4b8f20f8b56fee13adaca299ddec35a7d25cecfb1ff
+    name: langflow-ide
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/langflow-ide-1.0.0/langflow-ide-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.810030499Z"
@@ -90,6 +170,16 @@ entries:
     version: 0.1.2
   rhoai-data-connector:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.444362821Z"
+    description: A Helm chart for Kubernetes
+    digest: 5f66343ab202ee9f7c5d5f9c92134ae01e61b19691a09458573f722650c00557
+    name: rhoai-data-connector
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-data-connector-1.0.0/rhoai-data-connector-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:28.927503319Z"
     description: A Helm chart for Kubernetes
@@ -100,6 +190,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-data-connector-0.1.2/rhoai-data-connector-0.1.2.tgz
     version: 0.1.2
   rhoai-data-science-project:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.643422493Z"
+    description: A Helm chart for Kubernetes
+    digest: 50c21301919ed329c6af4ed582c668ce768fb8766aa19870628fc1f8d5002daa
+    name: rhoai-data-science-project
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-data-science-project-1.0.0/rhoai-data-science-project-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:29.083021759Z"
@@ -112,6 +212,16 @@ entries:
     version: 0.1.10
   rhoai-kfp-pipeline:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.76894615Z"
+    description: A Helm chart for Kubernetes
+    digest: 619f6ed6afd8f84ae3984e728818d9d666044188b438394a9f23eacf39e2610c
+    name: rhoai-kfp-pipeline
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-kfp-pipeline-1.0.0/rhoai-kfp-pipeline-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:29.233530815Z"
     description: A Helm chart for Kubernetes
@@ -122,6 +232,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-kfp-pipeline-0.1.9/rhoai-kfp-pipeline-0.1.9.tgz
     version: 0.1.9
   rhoai-single-model-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:13.881569596Z"
+    description: A Helm chart for Kubernetes
+    digest: 4de2266048c2aafd37b0aee6c027aa7d907c6284d0fcfc71068eedae92f781e9
+    name: rhoai-single-model-server
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-single-model-server-1.0.0/rhoai-single-model-server-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:29.337284059Z"
@@ -134,6 +254,16 @@ entries:
     version: 0.1.7
   rhoai-sync-model:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:14.026051898Z"
+    description: A Helm chart for Kubernetes
+    digest: 04ac15b1adef170248486c98c0377a7d406ba084d6e787e3fed851ed2946259b
+    name: rhoai-sync-model
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-sync-model-1.0.0/rhoai-sync-model-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:29.487751841Z"
     description: A Helm chart for Kubernetes
@@ -144,6 +274,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-sync-model-0.1.18/rhoai-sync-model-0.1.18.tgz
     version: 0.1.18
   rhoai-workbench:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:14.147285665Z"
+    description: A Helm chart for Kubernetes
+    digest: 9282c13a6998b073d1b2ec6e5b6d219b57a3f1f2940981609b392052aac7d449
+    name: rhoai-workbench
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhoai-workbench-1.0.0/rhoai-workbench-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:29.645189981Z"
@@ -156,6 +296,16 @@ entries:
     version: 0.1.19
   rhtap-pipeline-hermetic:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:14.249998575Z"
+    description: A chart for easily creating tekton pipelines
+    digest: 8c3755099b98aa5b8bf1466bec1b6a7d07833636c0959328221957e62122485c
+    name: rhtap-pipeline-hermetic
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhtap-pipeline-hermetic-1.0.0/rhtap-pipeline-hermetic-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:29.832967226Z"
     description: A chart for easily creating tekton pipelines
@@ -166,6 +316,16 @@ entries:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/rhtap-pipeline-hermetic-0.2.1/rhtap-pipeline-hermetic-0.2.1.tgz
     version: 0.2.1
   tekton-pipeline-generic:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:14.385917888Z"
+    description: A Helm chart for Kubernetes
+    digest: e113426b9bfe9541afe1593ea552ba7d2f4442733d104390562e950694fc2881
+    name: tekton-pipeline-generic
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/tekton-pipeline-generic-1.0.0/tekton-pipeline-generic-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:30.011488079Z"
@@ -178,6 +338,16 @@ entries:
     version: 0.0.1
   web-service:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-01-16T21:13:14.509720952Z"
+    description: A Helm chart for Kubernetes
+    digest: 1a4b106e93748a853facc38c76b4ca4902533cfc212ae185f6d3486ec8b6274f
+    name: web-service
+    type: application
+    urls:
+    - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/web-service-1.0.0/web-service-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-01-14T15:24:30.131957353Z"
     description: A Helm chart for Kubernetes
@@ -187,4 +357,4 @@ entries:
     urls:
     - https://github.com/na-launch-workshop/platform-supporting-charts/releases/download/web-service-0.1.10/web-service-0.1.10.tgz
     version: 0.1.10
-generated: "2026-01-14T15:24:30.131971309Z"
+generated: "2026-01-16T21:13:14.509772809Z"
