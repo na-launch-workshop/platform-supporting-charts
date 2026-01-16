@@ -21,7 +21,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     chart: "{{ .Values.chart }}"
-    repoURL: "https://poc-examples.github.io/charts"
+    repoURL: "https://na-launch-workshop.github.io/platform-charts"
     targetRevision: "{{ .Values.chartVersion }}"
     helm:
       valuesObject: {{ .Values.helmValues | toJson }}

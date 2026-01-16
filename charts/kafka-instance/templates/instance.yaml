@@ -14,7 +14,7 @@ spec:
                 - matchExpressions:
                     - values:
                         - kakfa-capacity
-                      key: platform.poc-examples.com/workload-role
+                      key: platform.na-launch-workshop.com/workload-role
                       operator: In
     {{- end }}
     topicOperator: {}
@@ -30,7 +30,7 @@ spec:
                 - matchExpressions:
                     - values:
                         - kakfa-capacity
-                      key: platform.poc-examples.com/workload-role
+                      key: platform.na-launch-workshop.com/workload-role
                       operator: In
     {{- end }}
     config:
@@ -64,7 +64,7 @@ spec:
                 - matchExpressions:
                     - values:
                         - kakfa-capacity
-                      key: platform.poc-examples.com/workload-role
+                      key: platform.na-launch-workshop.com/workload-role
                       operator: In
     {{- end }}
     replicas: 3

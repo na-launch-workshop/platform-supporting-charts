@@ -20,7 +20,7 @@
 #         che.eclipse.org/devfile-source: |
 #           url:
 #             location: >-
-#               https://raw.githubusercontent.com/poc-examples/software-templates/refs/heads/main/devfiles/continue-workspace/devfile.yaml
+#               https://raw.githubusercontent.com/na-launch-workshop/platform-software-templates/refs/heads/main/devfiles/continue-workspace/devfile.yaml
 #           factory:
 #             params: >-
-#               url=https://raw.githubusercontent.com/poc-examples/software-templates/refs/heads/main/devfiles/continue-workspace/devfile.yaml
+#               url=https://raw.githubusercontent.com/na-launch-workshop/platform-software-templates/refs/heads/main/devfiles/continue-workspace/devfile.yaml
