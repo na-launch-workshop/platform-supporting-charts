@@ -26,8 +26,9 @@ requirements:
       type: git
       version: main
       roles:
-        - name: gitlab
+    ## TODO: Want to apply one or the other role, not both
         - name: gitea
+        - name: gitlab
     - name: community.kubernetes
       source: "https://galaxy.ansible.com"
     - name: community.okd
