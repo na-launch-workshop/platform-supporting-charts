@@ -33,6 +33,8 @@ requirements:
       source: "https://galaxy.ansible.com"
     - name: community.okd
       source: "https://galaxy.ansible.com"
+    - name: community.general
+      source: "https://galaxy.ansible.com"
 
 additionalVars:
   vault:
