@@ -29,11 +29,9 @@ requirements:
     ## TODO: Want to apply one or the other role, not both
         - name: gitea
         - name: gitlab
-    - name: community.kubernetes
+    - name: kubernetes.core
       source: "https://galaxy.ansible.com"
     - name: community.okd
-      source: "https://galaxy.ansible.com"
-    - name: community.general
       source: "https://galaxy.ansible.com"
 
 additionalVars:
